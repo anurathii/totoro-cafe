@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Totoro's Café </title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <header>
+            <img src="https://i.pinimg.com/1200x/12/08/ac/1208aca0d6584b75693576acc0d5b4ef.jpg" id="header-img">
+            <h1>Totoro's Café</h1>
+            <nav>
+                <h2><a href="#menu">Totoro's Menu</a></h2>
+                <h2><a href="#order-form">Order Form</a></h2>
+            </nav>
+        </header>
+
+        <main>
+            <section id = "totoromenu"><h2>Totoro's Menu</h2></section>
+
+            <section id="menu">
+                
+                <article>
+                    <img src="images/cocoa jar.png">
+                    <h3>Sprite Cocoa</h3>
+                    <p>A creamy Chocolate drink.</p>
+                    <p><i>$2.25</i></p>
+                </article>
+
+                <article>
+                    <img src="images/mango.png">
+                    <h3>Mango Meadow</h3>
+                    <p>A refreshing tropical blend.</p>
+                    <p><i>$2.30</i></p>
+                </article>
+
+                <article>
+                    <img src="images/mint jar.png">
+                    <h3>Whispering Matcha</h3>
+                    <p>Cool, refreshing mint sip.</p>
+                    <p><i>$2.35</i></p>
+                </article>
+
+                <article>
+                    <img src="images/berry jar.png">
+                    <h3>Blossom Berry</h3>
+                    <p>Smooth Fruity delight</p>
+                    <p><i>$2.30</i></p>
+                </article>
+                        
+                <article>
+                    <img src="images/cocoa.png">
+                    <h3>Midnight Cocoa</h3>
+                    <p>A rich choco treat!</p>
+                    <p><i>$2.30</i></p>
+                </article>
+
+                <article>
+                    <img src="images/citrus.png">
+                    <h3>Citrus Bloom</h3>
+                    <p>A soft citrus sweetness.</p>
+                    <p><i>$2.20</i></p>
+                </article>
+
+                <article>
+                    <img src="images/berry.png">
+                    <h3>Berry Meadow</h3>
+                    <p>Matcha with sweet berries.</p>
+                    <p><i>$2.25</i></p>
+                </article>
+
+                <article>
+                    <img src="images/matcha.png">
+                    <h3>Pistachio Grove</h3>
+                    <p>Soft pistachio notes.</p>
+                    <p><i>$2.50</i></p>
+                </article>
+            </section>
+
+            <section id="order-form">
+                <h2 id="orderforms">Place Your Order</h2>
+
+                <form> 
+                    <div id="menuitems">
+                        <label for="item1">Sprite Cocoa:</label>
+                        <input type="number" id="item1" name="item1" min="0"><br><br>
+
+                        <label for="item2">Mango Meadow:</label>
+                        <input type="number" id="item2" name="item2" min="0"><br><br>
+
+                        <label for="item3">Whispering Matcha:</label>
+                        <input type="number" id="item3" name="item3" min="0"><br><br>
+
+                        <label for="item4">Blossom Berry:</label>
+                        <input type="number" id="item4" name="item4" min="0"><br><br>
+
+                        <label for="item5">Midnight Cocoa:</label>
+                        <input type="number" id="item5" name="item5" min="0"><br><br>
+
+                        <label for="item6">Citrus Bloom:</label>
+                        <input type="number" id="item6" name="item6" min="0"><br><br>
+
+                        <label for="item7">Berry Meadow:</label>
+                        <input type="number" id="item7" name="item7" min="0"><br><br>
+
+                        <label for="item8">Pistachio Grove:</label>
+                        <input type="number" id="item8" name="item8" min="0"><br><br>
+                    </div>
+
+                   <div id = "addons">
+                        <p >Add-ons:</p>
+                        <input type="checkbox" id="cream" name="addons">
+                        <label for="cream">Extra Cream</label><br>
+
+                        <input type="checkbox" id="ice" name="addons">
+                        <label for="ice">Extra Ice</label><br><br>
+
+                        <p>Delivery Option:</p>
+                        <input type="radio" id="delivery" name="delivery">
+                        <label for="delivery">Home Delivery</label><br>
+
+                        <input type="radio" id="pickup" name="delivery">
+                        <label for="pickup">Pickup</label><br><br>
+
+                        <label for="request">Special Requests:</label><br>
+                        <textarea id="request" name="request"></textarea><br><br>
+                   </div>
+
+                    <input type="submit" value="Go To Checkout">
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>Made with Love By <a id = "rathi" href = "https://www.codedex.io/@Rathiiiii">@Rathii</a></p>
+            <p>© 2026 Totoro's Café</p>
+            <p>Contact: totoro'scafé@gmail.com</p>
+        </footer>
+    </body>
+</html>

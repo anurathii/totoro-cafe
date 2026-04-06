@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+  background-color: #4A3B2F;
+  color: #4A3B2F;
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  
+}
+
+header {
+  background-color: #d2b48c;
+  padding: 10px;
+  border-radius: 12px;
+  width: 80%;
+  margin-top: 0;
+  margin:25px auto;
+  text-align: center;
+}
+
+#totoromenu{
+    text-align: center;
+}
+
+#header-img {
+  width: 100%; 
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #4A3B2F;
+  margin: 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #5a3e2b; 
+}
+
+section {
+  background-color: #FFF8F0; 
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  width: 80%;
+}
+
+#menu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  justify-content: center; 
+  row-gap: 20px;
+  column-gap: 10px;
+}
+
+article {
+  border: 1px solid #d2b48c;
+  padding: 15px;
+  border-radius: 12px;
+  background-color: #fff;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+article img {
+  width: 100px; 
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+h1, h2, h3 {
+  color: #4A3B2F;
+}
+
+p {
+  color: #7A6A5A;
+}
+
+#orderforms{
+    text-align: center;
+}
+
+#menuitems{
+    text-align: center;
+}
+
+#addons{
+    text-align: center;
+}
+input, textarea {
+  margin: 10px auto;
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #d2b48c;
+}
+
+input[type="submit"] {
+  display: block;  
+  background-color: #5a3e2b; 
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: black;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e2a1d;
+}
+
+#rathi{
+    color:#5a3e2b;
+    text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  color:#5a3e2b;
+  background-color: #f0cea1;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 6px;
+  margin:25px auto;
+  width: 80%;
+}
